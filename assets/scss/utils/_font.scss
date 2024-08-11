@@ -1,0 +1,64 @@
+.lato-bold-normal {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $font-primary;
+  font-size: 16px;
+}
+
+.lato-bold-bigger {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $font-primary;
+  font-size: 24px;
+}
+
+.lato-regular-darker {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: $font-primary;
+}
+
+.lato-regular-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: $font-secondary;
+}
+
+.lato-regular-mail {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: $font-secondary;
+}
+
+.roboto-mono {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: $success;
+}
+
+.btn-outline {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $success;
+  font-size: 16px;
+}
+
+.btn-filled {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 16px;
+}

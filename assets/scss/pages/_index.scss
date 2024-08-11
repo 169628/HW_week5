@@ -1,0 +1,97 @@
+.main {
+  padding: 0 32px;
+  max-width: 982px;
+}
+
+//header
+.header-container {
+  padding: 32px 0;
+}
+.header-brand {
+  padding: 0;
+  margin: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link.header-dropdown {
+  padding: 0;
+  padding-left: 50px;
+}
+
+//all 跟 comment
+.comment-container {
+  margin-top: 12px;
+}
+
+//list部分背景色、active色覆寫
+.list-group-item {
+  border-color: #ced4da;
+  padding: 12px;
+  width: 320px;
+}
+.list-group-item.active {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+
+//card部分背景色、border、padding覆寫
+.card-header {
+  border: 1px solid #ced4da;
+  background-color: #f8f9fa;
+  padding: 12px 16px;
+}
+
+//card body
+.card-body {
+  border: 1px solid #ced4da;
+  padding: 0;
+}
+.card-item {
+  padding: 16px 16px 0 16px;
+}
+.card-content {
+  margin-left: 8px;
+  border-bottom: 1px solid #ced4da;
+}
+.btn-download {
+  margin: 16px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+
+//card footer
+.card-footer {
+  background-color: #ffffff;
+}
+.btn-mark {
+  width: 157px;
+}
+.btn-reply {
+  width: 105px;
+}
+
+//position-absolute 框框
+.absolute-header {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  padding: 16px 25px;
+}
+.absolute-header li {
+  margin-right: 24px;
+}
+
+// card-body的權重較重，只好這樣改
+.card-body label {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #ced4da;
+}
+
+.absolute-footer {
+  padding: 16px 24px;
+}
+
+.btn-cancel {
+  width: 113px;
+  margin-right: 7px;
+}
