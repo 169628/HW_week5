@@ -46,3 +46,10 @@ git push -u origin main // 僅限第一次輸入，往後只需要輸入 git pus
 ```
 
 3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
+
+## 助教修改議建
+1. Assignment 文字右側所使用的 ul > li 結構不太對，可以調整一下
+2. All Courses 和 All (4) 按鈕這邊可以練習使用 Dropdowns 元件開啟假選單
+3. 右側卡片內文的 You can: 下方可以使用 ul > li 的結構和 list-style 屬性設定樣式
+4. 圖片的部分: 因為右側的文字內容是滿的，所以 flex 會自動調整左右兩側的寬度，這裡可以在頭貼設定寬度後，在頭貼外層加上一層 div 容器或是使用 .flex-shrink-0 防止 flex 收縮該區塊
+
